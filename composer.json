@@ -1,0 +1,27 @@
+{
+    "name": "wutaophp/dcat-iframe-tabs",
+    "description": "dcat-admin extension iframe-tabs",
+    "type": "library",
+    "keywords": ["dcat-admin", "extension"],
+    "homepage": "https://github.com/wutaophp/dcat-iframe-tabs",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wutao",
+            "email": "wutao314@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0|^8.0",
+        "dcat/laravel-admin": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dcat\\Admin\\Extension\\IframeTabs\\": "src/"
+        },
+         "files": [
+            "src/bootstrap.php"
+        ]
+    }
+
+}
